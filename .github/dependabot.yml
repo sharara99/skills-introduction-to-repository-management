@@ -1,0 +1,11 @@
+# Dependabot configuration file for version updates
+# Specify ecosystems and locations of package manifests
+# For more options and details, visit:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options
+
+version: 2
+updates:
+  - package-ecosystem: "pip"          # Ecosystem (e.g., pip, npm, etc.)
+    directory: "/"                    # Root directory of the repository
+    schedule:
+      interval: "weekly"              # Check for updates weekly
